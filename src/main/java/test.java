@@ -63,6 +63,7 @@ class b{
 
     public void setB(int b) {
         this.b = b;
+
 //        CharBuffer bf = CharBuffer.allocate(20);
 //        char[] b ={'d','d','f','g','y'};
 //        bf.put(b);
@@ -112,5 +113,6 @@ class person{
         int result = age;
         result = 31 * result + (name != null ? name.hashCode() : 0);
         return result;
+
     }
 }

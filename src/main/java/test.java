@@ -9,7 +9,6 @@ import java.util.Map;
  */
 public class test {
     public static void main(String[] args) {
-<<<<<<< HEAD
 //        b sb = new b(1,2);
 //        System.out.println(sb);
 //        d(sb);
@@ -64,7 +63,6 @@ class b{
 
     public void setB(int b) {
         this.b = b;
-=======
 //        CharBuffer bf = CharBuffer.allocate(20);
 //        char[] b ={'d','d','f','g','y'};
 //        bf.put(b);
@@ -114,6 +112,5 @@ class person{
         int result = age;
         result = 31 * result + (name != null ? name.hashCode() : 0);
         return result;
->>>>>>> f90e36a3fa8c88f66d0a8d1be8f33ae45fd2cd87
     }
 }
